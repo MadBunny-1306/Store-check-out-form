@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10px;
+  font-size: 24px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details {
+  flex: 3;
+}
+
+.address .form-group {
+  display: flex;
+  margin: 1em;
+}
+
+.address .form-group label {
+  flex-direction: 1;
+  text-align: right;
+  margin-right: 1em;
+}
+
+.address .form-group input {
+  flex-direction: 3;
+  font-size: 1em;
+  border-radius: ;
+  background-color: ;
+}
+
+.shipping {
+  text-align: center;
+}
+
+.shipping select {
+  font-size: 1em;
+  margin-top: 0.5em;
+}
+
+.comments {
+  flex: 1;
+}
+
+.submit {
+  margin-top: auto;
+}
